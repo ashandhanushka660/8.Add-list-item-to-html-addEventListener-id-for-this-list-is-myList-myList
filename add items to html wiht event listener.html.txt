@@ -1,0 +1,15 @@
+
+
+8.Add list item to html addEventListener
+id for this list is "myList"myList
+
+option 1
+const myList=getElementById('myList');
+const li=document.createElement('li);
+	li.textContent="item2";
+	myList.appendChild(li);
+
+option2
+const myList =document.querySelector	('myList');
+myList.innerHtML+='<li>Item 2</li>';
+
